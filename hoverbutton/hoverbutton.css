@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #090617;
+}
+
+button {
+  background: none;
+  color: lightsalmon;
+  border: 2px solid lightsalmon;
+  padding: 1em 2em;
+  font-size: 1em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  border-color: #f1ff5c;
+  color: #e9f1b8;
+  box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+  transform: translateY(-0.25em);
+}
